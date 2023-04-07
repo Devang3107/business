@@ -1,0 +1,133 @@
+@media (max-width: 1440px){
+    .about-flex{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px){
+    .carousel-item p{
+        font-size: 30px;
+    }
+    .about-flex{
+        display: flex;
+        justify-content: center;
+    }
+    .carousel-item1 p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px){
+    .space{
+        margin-bottom: 50px;
+    }
+    .carousel-item h2{
+        font-size: 20px;
+    }
+    .carousel-item p{
+        font-size: 26px;
+    }
+    .carousel-caption1{
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .carousel-item1 p{
+        font-size: 14px;
+    }
+    .navbar-togglar {
+        display: flex;
+    }
+
+    header.fixed .navigation {
+        left: 0;
+        z-index: 10;
+        overflow-y: scroll;
+    }
+    .navigation {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 84px;
+        left: -250px;
+        bottom: 0;
+        transition: all .5s;
+    }
+    .navigation .menu {
+        flex-direction: column;
+        padding: 0;
+    }
+    .navigation .menu .menu-item {
+        padding: 10px 75px;
+    }    
+    .navigation .menu .menu-item .sub-menu {
+        position: static;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .navigation .menu .menu-item .sub-menu .sub-menu-item .sub-menu-link {
+        width: 150px;
+        font-size: 15px;
+        color: #fff;
+        
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .carousel-control-prev-icon{
+        height: 25px;
+        width: 25px;
+    }
+    .carousel-control-next-icon{
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media (max-width: 425px){
+    .carousel-indicators1{
+        bottom:  -305px;
+    }
+    .navigation {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 78px;
+        left: -250px;
+        bottom: 0;
+        transition: all .5s;
+    }
+}
+
+@media (max-width: 375px){
+    .carousel-indicators1{
+        bottom:  -315px;
+    }
+    .navigation {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 77px;
+        left: -250px;
+        bottom: 0;
+        transition: all .5s;
+    }
+}
+
+@media (max-width: 320px){
+    .about-flex{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .carousel-indicators1{
+        bottom:  -330px;
+    }
+    .navigation {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 76px;
+        left: -250px;
+        bottom: 0;
+        transition: all .5s;
+    }
+}
